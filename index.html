@@ -1,57 +1,39 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Tambahkan font Comic Sans */
         @import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS:wght@400&display=swap');
-        body, p, h1 {
+        body, h1 {
             font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        .comic-text {
+            text-align: center;
+            font-family: 'Comic Sans MS', cursive;
         }
     </style>
 </head>
-<body class="bg-black text-white flex items-center justify-center min-h-screen">
-    <div class="text-center">
-        <h1 class="text-red-600 text-2xl font-bold mb-4">HI SWEETIE</h1>
-        <p class="text-lg mb-4">Pick a Color!</p>
-        <div class="grid grid-cols-2 gap-4">
-            <!-- Purple -->
-            <div>
-                <a href="purple.html">
-                    <img alt="Purple heart" class="mx-auto mb-2 rounded-lg" height="100" src="purple.jpg" width="100"/>
-                </a>
-                <p>PURPLE</p>
-            </div>
-            <!-- Black -->
-            <div>
-                <a href="black.html">
-                    <img alt="Black heart" class="mx-auto mb-2 rounded-lg" height="100" src="black.jpg" width="100"/>
-                </a>
-                <p>BLACK</p>
-            </div>
-            <!-- Blue -->
-            <div>
-                <a href="blue.html">
-                    <img alt="Blue heart" class="mx-auto mb-2 rounded-lg" height="100" src="blue.jpg" width="100"/>
-                </a>
-                <p>BLUE</p>
-            </div>
-            <!-- Red -->
-            <div>
-                <a href="red.html">
-                    <img alt="Red heart" class="mx-auto mb-2 rounded-lg" height="100" src="red.jpg" width="100"/>
-                </a>
-                <p>RED</p>
-            </div>
-            <!-- Pink -->
-            <div class="col-span-2">
-                <a href="pink.html">
-                    <img alt="Pink butterfly" class="mx-auto mb-2 rounded-lg" height="100" src="pink.jpg" width="100"/>
-                </a>
-                <p>PICK FOR LAST!</p>
-            </div>
+
+<body class="bg-white text-black flex flex-col items-center justify-center min-h-screen">
+    <h1 class="text-black-500 text-4xl mb-4 font-bold">
+        HI SWEETIE
+    </h1>
+    <p class="text-black text-xl mb-6 font-bold">
+        Open Up!
+    </p>
+
+    <div class="flex flex-col items-center">
+        <!-- SELENOPHILE -->
+        <div class="flex flex-col items-center">
+            <a href="selenophile.html">
+            <img alt="Selenophile" class="w-24 h-24 rounded-lg" src="images/selenophile.jpg" />
+            </a>
+            <h1 class="text-4xl font-bold text-gray-900 mt-2 text-black text-lg mt-2 comic-text">
+                SELENOPHILE
+            </h1>
         </div>
     </div>
 </body>
